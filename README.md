@@ -14,6 +14,9 @@ sudo openocd<br>
   -f target/rp2040.cfg<br>
   -c "adapter speed 5000"<br>
   -c "program blink.elf verify reset exit"<br>
+<br>
+<br>
+this code is useful if your motor controller has pwm pin and direction pin (not in a or in b pins)
 
 
 
